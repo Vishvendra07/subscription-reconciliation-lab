@@ -1,0 +1,40 @@
+{
+  "projection_steps": [
+    {
+      "duplicate": false,
+      "through": 1,
+      "state": "trial",
+      "collected_cents": 0,
+      "unresolved": null
+    },
+    {
+      "duplicate": false,
+      "through": 1,
+      "state": "trial",
+      "collected_cents": 0,
+      "unresolved": "sequence 3: expected 2"
+    },
+    {
+      "duplicate": false,
+      "through": 3,
+      "state": "past_due",
+      "collected_cents": 5900,
+      "unresolved": null
+    },
+    {
+      "duplicate": false,
+      "through": 4,
+      "state": "active",
+      "collected_cents": 11800,
+      "unresolved": null
+    },
+    {
+      "duplicate": true,
+      "through": 4,
+      "state": "active",
+      "collected_cents": 11800,
+      "unresolved": null
+    }
+  ],
+  "provider_events": 4
+}
